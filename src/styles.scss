@@ -1,8 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
-
 $backgroundColor: #0A0A0A;
+$secondBackgroundColor: #272525;
 $primaryColor: #EEE5E0;
 $textColor: #979390;
+
+@mixin fontBRSonoma($name, $weight, $style) {
+  @font-face {
+    font-family: brsonoma;
+    src: url('/assets/fonts/#{$name}.otf') format("opentype");
+    font-weight: $weight;
+    font-style: $style;
+  }
+}
+@include fontBRSonoma('brsonoma_light', 300, normal);
+@include fontBRSonoma('brsonoma_regular', normal, normal);
+@include fontBRSonoma('brsonoma_medium', 500, normal);
+@include fontBRSonoma('brsonoma_semibold', 600, normal);
+@include fontBRSonoma('brsonoma_bold', bold, normal);
+@include fontBRSonoma('brsonoma_black', 900, normal);
 
 font {
   font-family: "gimlet-sans-variable", sans-serif;
