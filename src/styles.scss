@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+
+$backgroundColor: #0A0A0A;
+$primaryColor: #EEE5E0;
+$textColor: #979390;
+
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: $backgroundColor;
+  color: $primaryColor;
+}
+
