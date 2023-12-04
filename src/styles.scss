@@ -4,11 +4,18 @@ $backgroundColor: #0A0A0A;
 $primaryColor: #EEE5E0;
 $textColor: #979390;
 
+font {
+  font-family: "gimlet-sans-variable", sans-serif;
+}
+
 body {
   width: 100%;
   padding: 0;
   margin: 0;
   background-color: $backgroundColor;
   color: $primaryColor;
+  font-family: "gimlet-sans-variable", sans-serif;
+  font-weight: bold;
 }
+
 
