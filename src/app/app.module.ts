@@ -7,13 +7,15 @@ import { HomeComponent } from './presentation/home/home.component';
 import { HeaderComponent } from './shared/header/header.component';
 import {NgOptimizedImage} from "@angular/common";
 import { LandingComponent } from './presentation/home/landing/landing.component';
+import { AboutWorkComponent } from './presentation/home/about-work/about-work.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    LandingComponent
+    LandingComponent,
+    AboutWorkComponent
   ],
   imports: [
     BrowserModule,
