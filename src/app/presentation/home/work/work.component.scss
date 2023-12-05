@@ -1,0 +1,52 @@
+.container {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+}
+
+h1 {
+  font-family: Gimlet Sans Variable;
+  font-size: 128px;
+  line-height: 0px;
+  margin: 0px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 1.28px;
+}
+
+.work-information {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  padding-right: 48px;
+}
+
+.time {
+  text-align: center;
+  font-family: brsonoma;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.24px;
+}
+
+.work-thumbnail {
+  width: 50%;
+  height: 100%;
+}
+
+.description {
+  color: #979390;
+  font-family: brsonoma;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 36px */
+  letter-spacing: 0.24px;
+
+}

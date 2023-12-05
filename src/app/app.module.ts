@@ -8,6 +8,8 @@ import { HeaderComponent } from './shared/header/header.component';
 import {NgOptimizedImage} from "@angular/common";
 import { LandingComponent } from './presentation/home/landing/landing.component';
 import { AboutWorkComponent } from './presentation/home/about-work/about-work.component';
+import { WorkComponent } from './presentation/home/work/work.component';
+import { WorksComponent } from './presentation/home/works/works.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { AboutWorkComponent } from './presentation/home/about-work/about-work.co
     HomeComponent,
     HeaderComponent,
     LandingComponent,
-    AboutWorkComponent
+    AboutWorkComponent,
+    WorkComponent,
+    WorksComponent
   ],
   imports: [
     BrowserModule,
