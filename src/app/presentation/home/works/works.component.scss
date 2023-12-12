@@ -1,9 +1,12 @@
 .container {
-  width: 100%;
+  width: 90%;
   height: 100vh;
   display: flex;
   flex-direction: column;
-  padding: 64px;
+  gap: 180px;
+  position: relative;
+  margin-left: auto;
+
 }
 
 h1 {
