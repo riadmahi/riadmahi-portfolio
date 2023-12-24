@@ -1,9 +1,8 @@
 .container {
   width: 90%;
-  height: 100vh;
   display: flex;
   flex-direction: column;
-  gap: 180px;
+  gap: 140px;
   position: relative;
   margin-left: auto;
 
@@ -14,6 +13,15 @@ h1 {
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
-  line-height: normal;
+  line-height: 0px;
   letter-spacing: 0.48px;
+}
+
+.prefix {
+  color: rgba(182, 182, 182, 0.34);
+  margin-right: 6px;
+}
+
+app-work {
+  width: 90%;
 }

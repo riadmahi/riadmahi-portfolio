@@ -8,7 +8,7 @@
 h1 {
   text-align: center;
   font-family: Gimlet Sans Variable;
-  font-size: 110px;
+  font-size: 6em;
   font-style: normal;
   font-weight: 900;
   line-height: normal;
@@ -20,6 +20,10 @@ h1 {
   width: 75%;
 }
 
+.img-presentation {
+  width: 100%;
+  object-fit: scale-down;
+}
 .scroll-container {
   width: 100%;
   display: flex;
@@ -61,4 +65,16 @@ $animation-duration: 1.5s; // Durée de l'animation (ajustez selon vos besoins)
 
 .image3 {
   animation: fadeAnimation $animation-duration infinite ease-in-out 1s alternate;
+}
+
+@media (max-width: 1080px) {
+  .presentation-container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1080px) {
+  h1 {
+    font-size: 4em;
+  }
 }

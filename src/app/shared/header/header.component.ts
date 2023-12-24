@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { DOCUMENT } from '@angular/common';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
+  protected readonly document = document;
 }
